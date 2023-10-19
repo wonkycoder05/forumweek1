@@ -30,6 +30,8 @@
                 border: 1px solid white;
                 border-collapse: collapse;
                 table-layout: auto;
+                display: flex;
+                flex-direction: column;
               }
               th, td {
                 background-color: #96D4D4;
