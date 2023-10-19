@@ -1,0 +1,36 @@
+            
+    
+            .title{
+                font-family: "LEMONMILK-Bold", sans-serif;
+                text-align: center;
+                font-size: xx-large;
+                color: burlywood;
+            }
+    
+            body{
+                font-family:"zh-cn", sans-serif ;
+                text-align: justify;
+                color: rgb(15, 42, 123);
+                margin-left: 20px ;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                
+            }
+    
+            
+            body {
+                background-image: url('https://img.freepik.com/premium-photo/light-blue-background-hd-wallpaper-3d-geometric-pattern_1000823-2222.jpg') ;
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-width: 100%;
+                overflow:scroll;
+                table-layout: auto;
+            }
+            table, th, td {
+                border: 1px solid white;
+                border-collapse: collapse;
+                table-layout: auto;
+              }
+              th, td {
+                background-color: #96D4D4;
+              }
