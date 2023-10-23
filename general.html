@@ -1,0 +1,207 @@
+<head>
+
+    <title>ArcaneAcess</title>
+    <link  href="css\base format.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Questrial&display=swap" rel="stylesheet">
+
+
+    <style>
+        h1{
+            font-family: 'DM Serif Display', serif;
+        }
+        body{
+            font-family: Questrial;
+        }
+
+.topnav {
+display: flex;
+flex-direction: column;
+overflow: hidden;
+background-color: #197171;
+position:relative;
+}
+
+@media (max-width:1000px) {
+}
+.menu {
+position: absolute;
+top: 0;
+margin-top: 50px;
+left: 0;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+
+
+.topnav #myLinks {
+display: none;
+}
+
+
+.topnav a {
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+
+.topnav a.icon {
+background: #086464;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+
+.topnav a:hover {
+background-color: #dddddd;
+color: #0e5e5e;
+}
+
+
+.active {
+background-color: #298989;
+color: white;
+}
+
+img{
+width: 10%;
+object-position: 0%;
+object-fit:cover;
+}
+
+
+    </style>
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</head>
+<body>
+
+<div class="topnav">
+    <a href="index.html" class="active"><img src="logo.png"></a>
+    
+    <div id="myLinks">
+        <a href="jadwal.html">Your Schedule</a>
+        <a href="general.html">Your Devices</a>
+        <a href="compatibility.html">Device Compatibility Guide</a>
+      </div>
+      
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<marquee><h1>Welcome to ArcaneAcess!</h1></marquee>
+
+<table width="100%">
+<tr>
+<th>Device:</th>
+<th>Status:</th>
+</tr>
+<tr>
+<td>LivingRoom Air Conditioner</td>
+
+<td><select id="mySelect">
+<option value="Off">Off</option>
+<option value="On">On</option>
+
+</select>
+</td>
+</tr>
+<td>BedRoom1 Air Conditioner</td>
+
+<td><select id="mySelect">
+<option value="Off">Off</option>
+<option value="On">On</option>
+
+</select>
+</td>
+</tr>
+
+<td>BedRoom2 Air Conditioner</td>
+
+<td><select id="mySelect">
+<option value="Off">Off</option>
+<option value="On">On</option>
+
+</select>
+</td>
+</tr>
+
+<tr>
+<td> Sony LivingRoom TV</td>
+
+<td><select id="mySelect">
+    <option value="Off">Off</option>
+    <option value="On">On</option>
+    
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Alexa</td>
+
+<td><select id="mySelect">
+    <option value="Off">Off</option>
+    <option value="On">On</option>
+    
+</select>
+</td>
+</tr>
+
+<td>2nd Floor Roomba</td>
+
+<td><select id="mySelect">
+    <option value="Off">Off</option>
+    <option value="On">On</option>
+    
+</select>
+</td>
+</tr>
+
+<td>1st Floor Roomba</td>
+
+<td><select id="mySelect">
+    <option value="Off">Off</option>
+    <option value="On">On</option>
+    
+</select>
+</td>
+</tr>
+
+<tr>
+<td>LivingRoom Apple TV</td>
+
+<td><select id="mySelect">
+    <option value="Off">Off</option>
+    <option value="On">On</option>
+</select>
+</td> 
+
+
+<tr>
+<td>LG BedRoom TV</td>
+
+<td><select id="mySelect">
+    <option value="Off">Off</option>
+    <option value="On">On</option>
+    
+</select>
+
+
+
